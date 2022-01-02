@@ -1,0 +1,7 @@
+{
+    "baseUrl": "",
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "defaultCommandTimeout":15000,
+    "video": false
+}
