@@ -1,0 +1,31 @@
+{
+  "name": "rpf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "run": "npx cypress run",
+    "format": "prettier --check **.{json,js}"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "cypress": "^8.6.0",
+    "cypress-xpath": "^1.6.2",
+    "eslint": "^8.1.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.2.4"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "uuidv4": "^6.2.12"
+  }
+}
